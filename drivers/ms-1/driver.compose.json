@@ -1,0 +1,46 @@
+{
+  "name": {
+    "en": "Smoke Alarm MS-1"
+  },
+  "class": "smokealarm",
+  "capabilities": [
+    "measure_battery",
+    "alarm_generic",
+    "alarm_smoke"
+  ],
+  "energy": {
+    "batteries": ["CR123A"]
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "matter"
+  ],
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+  },
+  "matter": {
+    "vendorId": 5526,
+    "productId": 1,
+    "learnmode": {
+        "instruction": {
+          "en": "First turn off the rear power switch. Then press and hold the Test/Hush button on the front panel. While keeping the button pressed, turn the power back on. When you see the front LED flash green and hear a beep sound, immediately release the Test/Hush button, then press it once briefly within 5 seconds. The Matter module LED will turn solid green first, then start flashing green to show the device is ready for pairing.",
+          "nl": "Schakel eerst de achterste voedingsschakelaar uit. Druk dan op de Test/Hush-knop op het frontpaneel en houd deze ingedrukt. Terwijl je de knop ingedrukt houdt, schakel je de voeding weer in. Wanneer je de front-LED groen ziet knipperen en een pieptoon hoort, laat je de Test/Hush-knop onmiddellijk los en druk je er binnen 5 seconden één keer kort op. De Matter-module LED wordt eerst stevig groen en begint dan groen te knipperen om aan te geven dat het apparaat klaar is voor koppeling.",
+          "de": "Schalte zuerst den hinteren Netzschalter aus. Drücke dann die Test/Hush-Taste auf der Frontplatte und halte sie gedrückt. Während du die Taste gedrückt hältst, schaltest du die Stromversorgung wieder ein. Wenn du die Front-LED grün blinken siehst und einen Piepton hörst, lass die Test/Hush-Taste sofort los und drücke sie dann innerhalb von 5 Sekunden einmal kurz. Die Matter-Modul-LED wird zuerst fest grün und beginnt dann grün zu blinken, um anzuzeigen, dass das Gerät bereit für die Kopplung ist.",
+          "fr": "Éteignez d'abord l'interrupteur d'alimentation arrière. Ensuite, appuyez et maintenez le bouton Test/Hush sur le panneau avant. Tout en gardant le bouton enfoncé, rallumez l'alimentation. Lorsque vous voyez la LED avant clignoter en vert et entendez un bip sonore, relâchez immédiatement le bouton Test/Hush, puis appuyez dessus une fois brièvement dans les 5 secondes. La LED du module Matter deviendra d'abord vert solide, puis commencera à clignoter en vert pour indiquer que l'appareil est prêt pour l'appairage.",
+          "it": "Spegni prima l'interruttore di alimentazione posteriore. Poi premi e mantieni premuto il pulsante Test/Hush sul pannello frontale. Mentre mantieni premuto il pulsante, riaccendi l'alimentazione. Quando vedi il LED frontale lampeggiare verde e senti un segnale acustico, rilascia immediatamente il pulsante Test/Hush, poi premilo una volta brevemente entro 5 secondi. Il LED del modulo Matter diventerà prima verde solido, poi inizierà a lampeggiare verde per indicare che il dispositivo è pronto per l'associazione.",
+          "sv": "Stäng av strömbrytaren på baksidan först. Tryck sedan in och håll Test/Hush-knappen på frontpanelen. Medan du håller knappen intryckt, slår du på strömmen igen. När du ser den främre LED:en blinka grön och hör en pip-ljud, släpp Test/Hush-knappen omedelbart och tryck sedan en gång kort inom 5 sekunder. Matter-modulens LED kommer först att bli stadigt grön och sedan börja blinka grön för att visa att enheten är redo för parning.",
+          "no": "Slå av strømbryteren på baksiden først. Trykk deretter inn og hold Test/Hush-knappen på frontpanelet. Mens du holder knappen inne, slår du på strømmen igjen. Når du ser den fremre LED-en blinke grønn og hører en pipelyd, slipp Test/Hush-knappen umiddelbart og trykk deretter én gang kort innen 5 sekunder. Matter-modulens LED vil først bli fast grønn og deretter begynne å blinke grønn for å vise at enheten er klar for paring.",
+          "es": "Primero apaga el interruptor de alimentación trasero. Luego presiona y mantén presionado el botón Test/Hush en el panel frontal. Mientras mantienes presionado el botón, enciende la alimentación nuevamente. Cuando veas el LED frontal parpadear en verde y escuches un pitido, suelta inmediatamente el botón Test/Hush, luego presiónalo una vez brevemente dentro de los 5 segundos. El LED del módulo Matter se volverá primero verde sólido, luego comenzará a parpadear en verde para indicar que el dispositivo está listo para el emparejamiento.",
+          "da": "Sluk først den bageste strømafbryder. Tryk derefter på Test/Hush-knappen på frontpanelet og hold den nede. Mens du holder knappen nede, tænder du strømmen igen. Når du ser den forreste LED blinke grøn og hører en bippelyd, slip Test/Hush-knappen øjeblikkeligt og tryk derefter én gang kort inden for 5 sekunder. Matter-modulens LED vil først blive fast grøn og derefter begynde at blinke grøn for at vise, at enheden er klar til parring.",
+          "ru": "Сначала выключите задний выключатель питания. Затем нажмите и удерживайте кнопку Test/Hush на передней панели. Удерживая кнопку нажатой, включите питание снова. Когда вы увидите, что передний светодиод мигает зеленым и услышите звуковой сигнал, немедленно отпустите кнопку Test/Hush, а затем нажмите ее один раз кратко в течение 5 секунд. Светодиод модуля Matter сначала станет сплошным зеленым, а затем начнет мигать зеленым, указывая на то, что устройство готово к сопряжению.",
+          "pl": "Najpierw wyłącz tylny przełącznik zasilania. Następnie naciśnij i przytrzymaj przycisk Test/Hush na panelu przednim. Trzymając przycisk wciśnięty, włącz ponownie zasilanie. Gdy zobaczysz, że przedni LED miga na zielono i usłyszysz sygnał dźwiękowy, natychmiast zwolnij przycisk Test/Hush, a następnie naciśnij go raz krótko w ciągu 5 sekund. LED modułu Matter najpierw stanie się stały zielony, a następnie zacznie migać na zielono, wskazując, że urządzenie jest gotowe do parowania.",
+          "ko": "먼저 후면 전원 스위치를 끄세요. 그런 다음 전면 패널의 Test/Hush 버튼을 누르고 누르고 있으세요. 버튼을 누르고 있는 동안 전원을 다시 켜세요. 전면 LED가 녹색으로 깜빡이고 비프음이 들리면 Test/Hush 버튼을 즉시 놓고 5초 이내에 한 번 짧게 누르세요. Matter 모듈 LED는 먼저 고체 녹색이 되었다가 녹색으로 깜빡이기 시작하여 장치가 페어링 준비가 되었음을 나타냅니다."
+        },
+      "image": "{{driverAssetsPath}}/pair.svg"
+    }
+  }
+}
