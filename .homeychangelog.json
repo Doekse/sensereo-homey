@@ -10,5 +10,8 @@
   },
   "1.0.0": {
     "en": "First stable release"
+  },
+  "1.1.0": {
+    "en": "Added support for the Smoke + CO Alarm MSC-1"
   }
 }
